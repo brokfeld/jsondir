@@ -15,7 +15,7 @@ npm i git+https://github.com/brokfeld/jsondir.git#v1.0.0
 ## Getting started
 
 ```js
-const JsonDir = require(`./jsondir`);
+const JsonDir = require(`@brokfeld/jsondir`);
 
 (async () => {
   const users = new JsonDir(`./users`);
