@@ -1,0 +1,22 @@
+{
+  "name": "@brokfeld/jsondir",
+  "version": "1.0.0",
+  "description": "This module manages a directory of JSON files.",
+  "main": "src/JsonDir.js",
+  "scripts": {
+    "build-api-doc": "documentation build src/** --output docs/api --config docs/api-config.yaml --watch --format html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokfeld/jsondir.git"
+  },
+  "author": "Jens Brokfeld <geofreak.de@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brokfeld/jsondir/issues"
+  },
+  "homepage": "https://github.com/brokfeld/jsondir#readme",
+  "devDependencies": {
+    "documentation": "^13.0.2"
+  }
+}
