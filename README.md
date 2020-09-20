@@ -6,16 +6,16 @@ This module manages a directory of JSON files.
 
 ```bash
 # Install master branch
-npm i git+https://github.com/brokfeld/jsondir#master
+npm i git+https://github.com/brokfeld/jsondir.git#master
 
 # or a specific version
-npm i git+https://github.com/brokfeld/jsondir#v1.0.0
+npm i git+https://github.com/brokfeld/jsondir.git#v1.0.0
 ```
 
 ## Getting started
 
 ```js
-const JsonDir = require(`@brokfeld/jsondir`);
+const JsonDir = require(`./jsondir`);
 
 (async () => {
   const users = new JsonDir(`./users`);
