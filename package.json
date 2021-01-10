@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/brokfeld/jsondir#readme",
   "devDependencies": {
-    "documentation": "^13.0.2"
+    "documentation": "^13.1.0"
   }
 }
