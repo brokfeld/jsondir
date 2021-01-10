@@ -40,7 +40,7 @@ const exec = (...args) => {
  * If the filename contains not allowed chars like `..`,
  * this function will throw an error.
  * 
- * @param {String} name Name of the JSON file
+ * @param {String} file Name of the JSON file
  */
 function checkFilename(file) {
   if (file.includes(`..`)) {
